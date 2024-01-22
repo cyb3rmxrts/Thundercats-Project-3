@@ -39,7 +39,7 @@ This project aims to assist Everett Enterprises, a marketing agency, in migratin
 
 ## Contributors
 - [Your Name]
-- [Team Member 1]
+- Dave Rino
 - [Team Member 2]
 
 ## Acknowledgments
