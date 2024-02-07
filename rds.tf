@@ -10,7 +10,9 @@
 
 resource "aws_dynamodb_table" "cars" {
   name           = "cars"
-  billing_mode   = "PAY_PER_REQUEST"
+  billing_mode   = "PROVISIONED"
+  read_capacity  = 5
+  write_capacity = 5
   hash_key       = "id"
 
   attribute {
