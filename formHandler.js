@@ -25,9 +25,13 @@ var callAPI = (email, name, model) => {
     redirect: 'follow'
   };
 
-  // Send the request to the API
-  fetch("https://c0qou9fsql.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
-    .then(response => response.text())
-    .then(result => alert(JSON.parse(result).body))
-    .catch(error => console.log('error', error));
+    // Send the request to the API
+    fetch("https://c0qou9fsql.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
+        .then(response => response.text())
+        .then(result => {
+            alert(JSON.parse(result).body);
+            // Clear the form fields here after successful submission
+            document.getElementById('carRentalForm').reset();
+        })
+        .catch(error => console.log('error', error));
 }
