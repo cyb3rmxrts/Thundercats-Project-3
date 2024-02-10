@@ -5,13 +5,13 @@ This project aims to assist Everett Enterprises, a marketing agency, in migratin
 
 ## Project Objectives
 - Create a multi-tier architecture in AWS utilizing Infrastructure as Code tools (Terraform).
-- Implement CI/CD pipelines (CodePipeline) for real-time updates to the infrastructure.
+- Implement CI/CD pipelines for real-time updates to the infrastructure.
 - Develop a visual presentation with network diagrams/architecture.
 - Establish a Jira Dashboard and Roadmap to track team tasks, organization, and progress through the Software Development Life Cycle (SDLC).
 
 ## Project Components
 - **Infrastructure as Code (IaC):** Utilize Terraform to define and provision AWS resources programmatically.
-- **CI/CD Pipelines:** Implement CodePipeline for automated building, testing, and deployment of infrastructure changes.
+- **CI/CD Pipelines:** Implement Amplify and Cloudfront for automated building, testing, and deployment of infrastructure changes.
 - **Presentation:** Create a visual representation of the architecture with detailed network diagrams.
 - **Jira Dashboard:** Set up a Jira Dashboard and Roadmap to manage and monitor team tasks and progress.
 
@@ -38,12 +38,11 @@ This project aims to assist Everett Enterprises, a marketing agency, in migratin
 - Jira Documentation: [link]
 
 ## Contributors
-- [Your Name]
+- Marcus Donovan
+- Keihma Moore
+- Ethan Yerigan
 - Dave Rino
-- [Team Member 2]
+- Gavin Marts
 
 ## Acknowledgments
-We acknowledge the support and guidance provided by [Trainer/Mentor Name] during the development of this project.
-
-## License
-This project is licensed under [License Name]. See the LICENSE file for details.
+We acknowledge the support and guidance provided by Dave Lazaro (Almighty Dave) during the development of this project.

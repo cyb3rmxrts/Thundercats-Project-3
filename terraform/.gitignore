@@ -7,3 +7,4 @@ terraform.tfstate.backup
 *.tfplan
 .terraform/
 .terraform.lock.hcl
+darwin_amd64
