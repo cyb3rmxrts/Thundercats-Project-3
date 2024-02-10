@@ -1,8 +1,26 @@
-# Everett Enterprises AWS Migration Project
+<div>
+<img src="./setupFiles/readme-imgs/main.png" />
 
-## Overview
-This project aims to assist Everett Enterprises, a marketing agency, in migrating their on-premises infrastructure to the AWS cloud. The goal is to design a fast, scalable, reliable, and cost-effective solution using Infrastructure as Code (IaC) and DevOps practices.
+<h2 align="center">ThunderCats Project 3</h2>
 
+<<<<<<< HEAD
+This repo contains the necessary files to deploy a basic web application using AWS Amplify.
+</div>
+<br/>
+
+### Prerequisites
+1. This code requires the use of:
+    -AWS Amplify to host the website
+    -DynamoDB Table to store our data
+    -Lambda function to add data to DB table (Python 3.8 runtime)
+    -API Gateway to interact with the Lambda Function.
+
+2. There are support files included in the setupFiles folder that include:
+    -the lambda code
+    -a provisioning playbook in YAML for CloudFormation
+    -permissions for the Lambda function (to be added to the Lambda execution role)
+    
+=======
 ## Project Objectives
 - Create a multi-tier architecture in AWS utilizing Infrastructure as Code tools (Terraform).
 - Implement CI/CD pipelines for real-time updates to the infrastructure.
@@ -46,3 +64,4 @@ This project aims to assist Everett Enterprises, a marketing agency, in migratin
 
 ## Acknowledgments
 We acknowledge the support and guidance provided by Dave Lazaro (Almighty Dave) during the development of this project.
+>>>>>>> 72cb60f7949ef6c0d9f521966ecf7affeb1efe99
