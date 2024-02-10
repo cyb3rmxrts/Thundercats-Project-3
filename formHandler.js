@@ -1,5 +1,8 @@
 document.getElementById('carRentalForm').addEventListener('submit', function(event) {
   event.preventDefault();
+  
+document.getElementById('carRentalForm').reset();
+  
   submitForm();
 });
 
@@ -30,8 +33,6 @@ var callAPI = (email, name, model) => {
         .then(response => response.text())
         .then(result => {
             alert(JSON.parse(result).body);
-            // Clear the form fields here after successful submission
-            document.getElementById('carRentalForm').reset();
         })
         .catch(error => console.log('error', error));
 }
