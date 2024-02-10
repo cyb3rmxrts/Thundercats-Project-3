@@ -3,12 +3,11 @@
 
 <h2 align="center">ThunderCats Project 3</h2>
 
-<<<<<<< HEAD
-This repo contains the necessary files to deploy a basic web application using AWS Amplify.
+# This repo contains the necessary files to deploy a basic web application using AWS Amplify.
 </div>
 <br/>
 
-### Prerequisites
+## Prerequisites
 1. This code requires the use of:
     -AWS Amplify to host the website
     -DynamoDB Table to store our data
@@ -20,7 +19,6 @@ This repo contains the necessary files to deploy a basic web application using A
     -a provisioning playbook in YAML for CloudFormation
     -permissions for the Lambda function (to be added to the Lambda execution role)
     
-=======
 ## Project Objectives
 - Create a multi-tier architecture in AWS utilizing Infrastructure as Code tools (Terraform).
 - Implement CI/CD pipelines for real-time updates to the infrastructure.
@@ -64,4 +62,3 @@ This repo contains the necessary files to deploy a basic web application using A
 
 ## Acknowledgments
 We acknowledge the support and guidance provided by Dave Lazaro (Almighty Dave) during the development of this project.
->>>>>>> 72cb60f7949ef6c0d9f521966ecf7affeb1efe99
