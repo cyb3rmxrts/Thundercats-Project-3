@@ -1,5 +1,8 @@
 document.getElementById('carRentalForm').addEventListener('submit', function(event) {
   event.preventDefault();
+  
+document.getElementById('carRentalForm').reset();
+  
   submitForm();
 });
 
@@ -43,5 +46,4 @@ var callAPI = (email, name, model) => {
         console.log('error', error);
         alert("An error occurred: " + error.message);
     });
-
 }
