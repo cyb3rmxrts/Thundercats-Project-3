@@ -35,7 +35,7 @@ var callAPI = (email, name, model) => {
             alert("Form submitted successfully");
             document.getElementById('carRentalForm').reset();
         } else {
-            alert("Submission failed: " + result);
+            alert("Submission: " + result);
             document.getElementById('carRentalForm').reset();
         }
     })
